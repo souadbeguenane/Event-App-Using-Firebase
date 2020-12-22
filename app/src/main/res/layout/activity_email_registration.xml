@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_email_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.souad.wtm.EmailRegistrationActivity"
+    android:background="@drawable/souad"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Enregistrer-vous"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Nom complet"
+            android:textSize="17dp"
+            android:layout_marginBottom="8dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/NomComplet"
+            android:textColor="#494949"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sexe"
+            android:textSize="17dp"
+
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/RegistrationRadioGroup"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Homme"
+                android:textColor="#ffffff"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:textSize="17dp"
+                android:id="@+id/Homme"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Femme"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:id="@+id/Femme"
+
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Adresse"
+            android:textSize="17dp"
+            android:layout_marginBottom="8dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/AdresseUtilisateur"
+            android:textColor="#494949"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Telephone"
+            android:textSize="17dp"
+            android:layout_marginBottom="8dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="15dp"
+            android:inputType="phone"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/Phone"
+            android:textColor="#494949"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Activité"
+            android:textSize="17dp"
+            android:layout_marginBottom="8dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/ActiviteUtilisateur"
+            android:textColor="#494949"
+            />
+
+
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp"
+            >
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#1c6e4c"
+                android:text="Envoyer"
+                android:id="@+id/Envoyer"
+                />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#1c6e4c"
+                android:text="Annuler"
+                android:id="@+id/Annuler"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

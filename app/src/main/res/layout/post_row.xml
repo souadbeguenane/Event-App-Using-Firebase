@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    >
+
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="2dp"
+
+        android:background="#ffffff"
+        android:layout_marginBottom="2dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/10/2017"
+            android:textSize="10dp"
+            android:layout_marginStart="250dp"
+            android:textColor="#5c5c5c"
+            android:layout_marginTop="4dp"
+
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Textviex.base de donné"
+                android:textSize="20dp"
+                android:id="@+id/Titre"
+                android:textColor="#313030"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/images"
+                android:layout_marginStart="10dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text="Lieu:"
+                android:textSize="20dp"
+                android:textColor="#3b3737"
+                android:layout_marginTop="2dp"
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Exemple:mascara"
+
+                android:textColor="#3b3737"
+                android:id="@+id/lieu"
+                android:textSize="15dp"
+                android:layout_marginTop="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="30dp"
+
+                android:layout_height="30dp"
+                android:src="@drawable/date"
+                android:layout_marginStart="10dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text="Date:"
+                android:textSize="20dp"
+                android:textColor="#3b3737"
+                android:layout_marginTop="1dp"
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exemple:14/04/2018"
+                android:textSize="15dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#3b3737"
+                android:id="@+id/date"
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modifier"
+                android:textColor="#3b3737"
+                android:layout_marginStart="50dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plus"
+                android:layout_marginStart="160dp"
+                android:textSize="15dp"
+                android:textColor="#ed3a2a"
+                android:onClick="toDetailActivity"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

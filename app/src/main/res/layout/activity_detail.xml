@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.souad.wtm.Detail">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_image"
+            app:srcCompat="@mipmap/add_btn"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="#ffffff"
+        android:weightSum="1"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="12/10/2017"
+            android:textSize="10dp"
+            android:layout_marginStart="220dp"
+            android:textColor="#5c5c5c"
+            android:layout_marginTop="4dp"
+
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Textviex.base de donné"
+                android:textSize="20dp"
+                android:id="@+id/Titre"
+                android:textColor="#313030"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/images"
+                android:layout_marginStart="10dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text="Lieu:"
+                android:textSize="20dp"
+                android:textColor="#3b3737"
+                android:layout_marginTop="2dp"
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Exemple:mascara"
+
+                android:textColor="#3b3737"
+                android:id="@+id/lieu"
+                android:textSize="15dp"
+                android:layout_marginTop="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="30dp"
+
+                android:layout_height="30dp"
+                android:src="@drawable/date"
+                android:layout_marginStart="10dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text="Date:"
+                android:textSize="20dp"
+                android:textColor="#3b3737"
+                android:layout_marginTop="1dp"
+                />
+            <TextView
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date de debut:"
+                android:textColor="#313030"
+
+                />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginStart="108dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date de debut:"
+            android:textColor="#313030"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type d'annonce:"
+                android:textColor="#313030"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Exemple:evenement"
+
+                android:textColor="#3b3737"
+                android:id="@+id/TypeAnnonce"
+                android:textSize="15dp"
+                android:layout_marginTop="2dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom du contact principal:"
+                android:textColor="#313030"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Souad"
+
+                android:textColor="#3b3737"
+                android:id="@+id/ContactPrincipal"
+                android:textSize="15dp"
+                android:layout_marginTop="2dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom de l'organism:"
+                android:textColor="#313030"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ta3alom"
+
+                android:textColor="#3b3737"
+                android:id="@+id/Organisme"
+                android:textSize="15dp"
+                android:layout_marginTop="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adresse:"
+                android:textColor="#313030"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bab Zowar"
+                android:textColor="#3b3737"
+                android:textSize="15dp"
+                android:layout_marginTop="2dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description d'annonce:"
+                android:textColor="#313030"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text view"
+
+                android:textColor="#3b3737"
+                android:textSize="15dp"
+                android:layout_marginTop="2dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
